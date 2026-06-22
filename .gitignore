@@ -1,0 +1,13 @@
+# 개인 환경 설정 및 보안 자격증명
+.env
+
+# SQLite3 로컬 가상 장부
+database.db
+
+# 파이썬 캐시 파일
+__pycache__/
+*.pyc
+src/__pycache__/
+
+# 로컬 통합 테스트 스크립트
+test_integration.py

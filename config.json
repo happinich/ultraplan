@@ -1,0 +1,25 @@
+{
+  "fee_rates": {
+    "krw_buy_fee": 0.00015,
+    "krw_sell_fee": 0.00015,
+    "krw_sell_tax": 0.0018,
+    "usd_buy_fee": 0.001,
+    "usd_sell_fee": 0.001,
+    "usd_sell_tax": 0.0000278,
+    "exchange_fee_rate": 0.002
+  },
+  "strategies": {
+    "arbitrage": {
+      "symbols": ["005930", "000660"],
+      "threshold": 0.02,
+      "trade_amount_krw": 1000000.0
+    },
+    "scalping": {
+      "symbols": ["AAPL", "TSLA", "NVDA"],
+      "volume_multiplier": 3.0,
+      "take_profit_rate": 0.005,
+      "stop_loss_rate": 0.003,
+      "trade_amount_usd": 200.0
+    }
+  }
+}
